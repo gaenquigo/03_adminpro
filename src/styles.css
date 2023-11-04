@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.selector, .cursor {
+cursor:pointer
+}
+
+
+
+
+#google-btn {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.avatar-img{
+    width: 180px;
+    height: 180px;
+    padding-bottom: 30px;
+}
+
+
+.w100{
+    width: 100px;
+}
+
+.w140{
+    width: 140px;
+}
+
+.avatar{
+    border-radius: 100%;
+    width: 50px;
+}
+
+
+.fondo-modal-imagen {
+    background-color: rgba(0, 0, 0, 0.4);
+    left: 0px;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9999;
+}
+
+
+.oculto{
+    display: none;
+    z-index: 9999999999;
+}
